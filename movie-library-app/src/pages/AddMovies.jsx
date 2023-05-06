@@ -38,7 +38,7 @@ const AddMovies = () => {
             postMovies(movieData);
             alert("Data Added Succesfully")
             dispatch(getMovies());
-        } else {
+        } else { 
             alert("Please fill all the details first")
         }
 
