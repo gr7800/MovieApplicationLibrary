@@ -1,0 +1,32 @@
+/* Define the styles for the navigation bar */
+.nav {
+  width: 100%-40px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* Add a box shadow effect to the navigation bar */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px 0px 20px;
+}
+
+/* Define the styles for the first box in the navigation bar */
+
+
+/* Define the styles for the logo in the navigation bar */
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  color: #ffffff;
+  /* Set the font color of the logo */
+}
+
+.bx_1 {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+.bx_1:hover{
+  text-decoration: underline;
+}
